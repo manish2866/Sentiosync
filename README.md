@@ -66,15 +66,16 @@
 ## 📂 Project Structure
 
 ```bash
-.
-├── Code/
-│   ├── annotations/              # Raw Emotic .mat annotation files
-│   │   └── Annotations.mat
-│   ├── models/                   # Pretrained .pt checkpoints
-│   │   └── *.pt
-│   ├── app.py                    # Streamlit entry point
-│   ├── models.py                 # ViT & fusion architecture definitions
-│   ├── requirements.txt          # Python dependencies
-│   └── run.sh                    # Setup & launch script
-└── Report/
-    └── swanitha_manishbi_final_report.pdf  # Detailed write-up & results
+Code/
+ ├── annotations/              # Raw Emotic .mat annotation files
+ │   └── Annotations.mat
+ ├── models/                   # Pretrained .pt checkpoints
+ │   └── *.pt
+ ├── app.py                    # Streamlit entry point
+ ├── models.py                 # ViT & fusion architecture definitions
+ ├── requirements.txt          # Python dependencies
+ └── run.sh                    # Setup & launch script
+
+---
+
+**Prepare the dataset and run the models using run.sh in the code**
